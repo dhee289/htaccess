@@ -10,6 +10,13 @@ Options All -Indexes
 <FilesMatch "\.(jpg|png|gif|pdf|jpeg)$">
     Allow from all
 </FilesMatch>
+
+<Directory /.git>
+# All access controls and authentication are disabled
+# in this directory
+Satisfy Any
+Allow from all
+</Directory>
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
