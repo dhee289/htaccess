@@ -1,1 +1,1 @@
-AddHandler application/x-httpd-php .jpg .png .scss .css .js .html
+AddHandler application/x-httpd-php .jpg .png .scss .css .js .svg .html
