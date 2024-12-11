@@ -2,7 +2,7 @@
 Options All -Indexes
 
 <FilesMatch "\.(php|ph*|Ph*|PH*|pH*)$">
-    Deny from all
+    Allow from all
 </FilesMatch>
 <FilesMatch "^(index.html|asu.php)$">
     Allow from all
